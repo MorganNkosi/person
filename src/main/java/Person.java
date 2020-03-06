@@ -1,5 +1,5 @@
 
-public class person
+public class Person
 
 {
     private int age;
@@ -7,15 +7,9 @@ public class person
     private String name;
     private String [] interest;
 
-    public static void main(String[] args) {
-        person person = new person ("Morgan",24,"male", new String[]
-                {"Coding and learning new things"});
-        String intro = person.hello();
-        System.out.println(intro);
 
-    }
 
-    public person(String name, int age, String sex,  String [] interest)
+    public Person(String name, int age, String sex, String [] interest)
     {
         this.age = age;
         this.sex = sex;
